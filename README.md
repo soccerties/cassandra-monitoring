@@ -11,7 +11,7 @@ Earlier versions will work but certain Grafana dashboard metrics may not load
 * [JMX Prometheus Exporter setup on the Cassandra cluster nodes](https://www.robustperception.io/monitoring-cassandra-with-prometheus/)
 * [Node Exporter](https://github.com/prometheus/node_exporter) version 0.16.0 running on the Cassandra cluster nodes
 
-Earlier version will work but several metric names were changed in 0.16 and the certain Grafana metrics may not load
+Earlier versions will work but several metric names were changed in 0.16 and certain Grafana metrics may not load
 
 ## Usage
 * Clone the repo and change directories into it
@@ -61,7 +61,9 @@ docker-compose up -d
 That's it! If there were no erros you can open a browser and visit the Grafana interface and login (http://localhost:3000/)
 
 ### Dashboards
-3 Grafana dashboards are included
+4 Grafana dashboards are included
+* C* Cluster Overview
+![C* Cluster Overview](screenshots/c-cluster-overview.png)
 * C* Cluster Metrics
 ![C* Cluster Metrics](screenshots/c-cluster-metrics.png)
 * C* Table Metrics
