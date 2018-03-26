@@ -9,6 +9,9 @@ The new provisioning features of Grafana 5.x are used to configure the datasourc
 Earlier versions will work but certain Grafana dashboard metrics may not load
 
 * [JMX Prometheus Exporter setup on the Cassandra cluster nodes](https://www.robustperception.io/monitoring-cassandra-with-prometheus/)
+
+Here's an Ansible role which can install the exporter for you on an RHEL based OS: [Cassandra JMX Exporter](https://github.com/soccerties/cassandra-misc/tree/master/ansible/roles#cassandra-exporter)
+
 * [Node Exporter](https://github.com/prometheus/node_exporter) version 0.16.0 running on the Cassandra cluster nodes
 
 Earlier versions will work but several metric names were changed in 0.16 and certain Grafana metrics may not load
